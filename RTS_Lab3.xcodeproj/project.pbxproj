@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		11F651A52613746A006BB269 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F651A42613746A006BB269 /* AppDelegate.swift */; };
 		11F651A72613746A006BB269 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F651A62613746A006BB269 /* SceneDelegate.swift */; };
-		11F651A92613746A006BB269 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F651A82613746A006BB269 /* ViewController.swift */; };
 		11F651AC2613746A006BB269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F651AA2613746A006BB269 /* Main.storyboard */; };
 		11F651AE26137478006BB269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F651AD26137478006BB269 /* Assets.xcassets */; };
 		11F651B126137478006BB269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F651AF26137478006BB269 /* LaunchScreen.storyboard */; };
+		11F651BE261378A8006BB269 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F651BD261378A8006BB269 /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11F651A12613746A006BB269 /* RTS_Lab3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTS_Lab3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F651A42613746A006BB269 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11F651A62613746A006BB269 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11F651A82613746A006BB269 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		11F651AB2613746A006BB269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11F651AD26137478006BB269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11F651B026137478006BB269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11F651B226137478006BB269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11F651BD261378A8006BB269 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +56,31 @@
 		11F651A32613746A006BB269 /* RTS_Lab3 */ = {
 			isa = PBXGroup;
 			children = (
-				11F651A42613746A006BB269 /* AppDelegate.swift */,
-				11F651A62613746A006BB269 /* SceneDelegate.swift */,
-				11F651A82613746A006BB269 /* ViewController.swift */,
+				11F651BA261374B4006BB269 /* Resources */,
+				11F651B926137492006BB269 /* Controllers */,
 				11F651AA2613746A006BB269 /* Main.storyboard */,
 				11F651AD26137478006BB269 /* Assets.xcassets */,
 				11F651AF26137478006BB269 /* LaunchScreen.storyboard */,
 				11F651B226137478006BB269 /* Info.plist */,
 			);
 			path = RTS_Lab3;
+			sourceTree = "<group>";
+		};
+		11F651B926137492006BB269 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				11F651BD261378A8006BB269 /* FirstViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		11F651BA261374B4006BB269 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11F651A62613746A006BB269 /* SceneDelegate.swift */,
+				11F651A42613746A006BB269 /* AppDelegate.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11F651A92613746A006BB269 /* ViewController.swift in Sources */,
+				11F651BE261378A8006BB269 /* FirstViewController.swift in Sources */,
 				11F651A52613746A006BB269 /* AppDelegate.swift in Sources */,
 				11F651A72613746A006BB269 /* SceneDelegate.swift in Sources */,
 			);
