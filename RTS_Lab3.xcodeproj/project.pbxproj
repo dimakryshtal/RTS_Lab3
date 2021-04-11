@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1137F784261F46E60002F913 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1137F783261F46E60002F913 /* ThirdViewController.swift */; };
+		11BE9B06261CB16400F6B680 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BE9B05261CB16400F6B680 /* SecondViewController.swift */; };
 		11F651A52613746A006BB269 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F651A42613746A006BB269 /* AppDelegate.swift */; };
 		11F651A72613746A006BB269 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F651A62613746A006BB269 /* SceneDelegate.swift */; };
 		11F651AC2613746A006BB269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F651AA2613746A006BB269 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1137F783261F46E60002F913 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		11BE9B05261CB16400F6B680 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		11F651A12613746A006BB269 /* RTS_Lab3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTS_Lab3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F651A42613746A006BB269 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11F651A62613746A006BB269 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				11F651BD261378A8006BB269 /* FirstViewController.swift */,
+				11BE9B05261CB16400F6B680 /* SecondViewController.swift */,
+				1137F783261F46E60002F913 /* ThirdViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -153,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11BE9B06261CB16400F6B680 /* SecondViewController.swift in Sources */,
 				11F651BE261378A8006BB269 /* FirstViewController.swift in Sources */,
+				1137F784261F46E60002F913 /* ThirdViewController.swift in Sources */,
 				11F651A52613746A006BB269 /* AppDelegate.swift in Sources */,
 				11F651A72613746A006BB269 /* SceneDelegate.swift in Sources */,
 			);
