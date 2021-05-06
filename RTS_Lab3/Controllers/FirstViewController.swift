@@ -12,6 +12,7 @@ class FirstViewController: UIViewController {
     
     @IBOutlet var text: UITextField!
     @IBOutlet var outputLabel: UILabel!
+    @IBOutlet var numberOfIter: UILabel!
     @IBOutlet var button: UIButton!
     
     override func viewDidLoad() {
@@ -32,10 +33,13 @@ class FirstViewController: UIViewController {
         }
         
         var num = ceil(sqrt(Double(number)))
+        var counter = 0
         while(sqrt(pow(num, 2) - Double(number)) != floor(sqrt(pow(num, 2) - Double(number)))) {
-           num += 1
+            num += 1
+            counter += 1
         }
         outputLabel.text = "\(Int(num - sqrt(pow(num, 2) - Double(number)))), \(Int(num + sqrt(pow(num, 2) - Double(number))))"
+        numberOfIter.text = "Number of iterations: \(counter)"
     
     }
 }
